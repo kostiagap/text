@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/space"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -11,16 +12,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="16dp"
         android:text="now you died!"
-        android:textColor="@color/drk"/>
+        android:textColor="@color/drk"
+        android:textSize="16dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
         android:gravity="center"
         android:text="START"
-        android:textColor="@color/drk"/>
+        android:textColor="@color/drk"
+        android:textSize="30dp" />
 
 </LinearLayout>
