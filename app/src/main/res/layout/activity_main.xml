@@ -21,6 +21,6 @@
         android:textSize="30dp"
         android:gravity="center"
         android:text="START"
-        android:textColor="@color/krd"/>
+        android:textColor="@color/krdghhghgfhghg"/>
 
 </LinearLayout>
