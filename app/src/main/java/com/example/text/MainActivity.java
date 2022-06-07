@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN); // убирает actionbar
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE); // делает ориентацию горизонтальной
 
-        button = (Button) findViewById(R.id.strt);
-        button.setOnClickListener((view ->{
-            Intent i = new Intent(getApplicationContext(), History.class);
-            startActivity(i);
-        }));
+        //button = (Button) findViewById(R.id.strt);
+        //button.setOnClickListener((view ->{
+        //    Intent i = new Intent(getApplicationContext(), History.class);
+       //    startActivity(i);
+        //}));
 
     }
 }

@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg1"
     tools:context=".MainActivity">
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -30,5 +31,6 @@
         android:layout_marginTop="110dp"
         android:layout_marginHorizontal="60dp"
         android:textSize="30dp"
-        android:text="hello my fucking friends!"/>
+        android:text="hello my fucking friends!"/> -->
+
 </LinearLayout>
